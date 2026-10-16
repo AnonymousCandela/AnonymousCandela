@@ -1,30 +1,31 @@
-# Bonjour, je suis Durrice Léa Tahoc Wokam 👋
+# Hi, I'm Durrice Léa Tahoc Wokam 👋
 
-Étudiante au **baccalauréat en génie informatique** à l'Université du Québec en Outaouais (UQO).
-Je m'intéresse à la **conception numérique sur FPGA**, aux **systèmes embarqués** et à l'**intégration matériel-logiciel**.
+**Computer Engineering** undergraduate student at the Université du Québec en Outaouais (UQO), Canada.
+I'm interested in **FPGA digital design**, **embedded systems** and **hardware/software integration**.
 
-## 🔧 Compétences
+## 🔧 Skills
 
-| Domaine | Outils et technologies |
+| Area | Tools and technologies |
 |---|---|
-| Conception numérique | VHDL, machines à états, UART, Intel Quartus Prime, Cyclone V (DE1-SoC) |
-| Vérification | Bancs d'essai VHDL, Questa / ModelSim |
-| Embarqué | Arduino (C/C++), acquisition de capteurs, commande PWM, interruptions |
-| Instrumentation | Calibration expérimentale, analyse statistique des mesures |
-| Documentation | Rédaction technique, cohérence entre la documentation et l'implantation |
+| Digital design | VHDL, finite state machines, UART, Intel Quartus Prime, Cyclone V (DE1-SoC) |
+| Verification | VHDL testbenches, Questa / ModelSim |
+| Embedded | Arduino (C/C++), sensor acquisition, PWM control, interrupts |
+| Instrumentation | Experimental calibration, statistical analysis of measurements |
+| Documentation | Technical writing, keeping documentation consistent with the implementation |
 
-## 📌 Projet à la une
+## 📌 Featured project
 
-### [Surveillance d'un moteur CC — Arduino + FPGA](https://github.com/AnonymousCandela/surveillance-moteur-fpga)
+### [DC Motor Monitoring — Arduino + FPGA](https://github.com/AnonymousCandela/surveillance-moteur-fpga)
 
-Système embarqué temps réel qui classe l'état d'un moteur à courant continu en **NORMAL**, **DÉGRADÉ** ou **DÉFAUT** à partir de sa vitesse et de son courant.
+Real-time embedded system that classifies a DC motor's condition as **NORMAL**, **DEGRADED** or **FAULT** from its speed and current.
 
-- Chaîne FPGA complète en VHDL : réception UART, décodage et vérification de trame, classifieur à seuils, émission de l'état.
-- Confirmation des changements d'état sur 3 mesures, mais défaut appliqué immédiatement pour des raisons de sécurité.
-- Liaison UART à 115 200 bauds entre un Arduino Mega 2560 (5 V) et une DE1-SoC (3,3 V).
+- Full FPGA pipeline in VHDL: UART reception, frame decoding and checksum validation, threshold classifier, state transmission.
+- State changes confirmed over 3 consecutive measurements, while faults are applied immediately for safety.
+- 115,200 baud UART link between an Arduino Mega 2560 (5 V) and a DE1-SoC board (3.3 V).
 
-*Stage GEN5001 · UQO · Été 2026*
+*GEN5001 internship · UQO · Summer 2026*
+*Project documentation is in French.*
 
-## 🌐 Langues
+## 🌐 Languages
 
-Français
+French · English

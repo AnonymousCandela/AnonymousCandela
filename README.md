@@ -13,7 +13,7 @@ I'm interested in **FPGA digital design**, **embedded systems** and **hardware/s
 | Instrumentation | Experimental calibration, statistical analysis of measurements |
 | Documentation | Technical writing, keeping documentation consistent with the implementation |
 
-## 📌 Featured project
+## 📌 Featured projects
 
 ### [DC Motor Monitoring — Arduino + FPGA](https://github.com/AnonymousCandela/surveillance-moteur-fpga)
 
@@ -24,6 +24,17 @@ Real-time embedded system that classifies a DC motor's condition as **NORMAL**, 
 - 115,200 baud UART link between an Arduino Mega 2560 (5 V) and a DE1-SoC board (3.3 V).
 
 *GEN5001 internship · UQO · Summer 2026*
+*Project documentation is in French.*
+
+### [Obstacle-Avoiding Robot — Arduino Uno](https://github.com/AnonymousCandela/Robot.Eviteur.d-obstacles)
+
+Autonomous mobile robot that detects obstacles and reacts to avoid collisions.
+
+- Distance measurement with an HC-SR04 ultrasonic sensor mounted on a scanning servo.
+- Dual DC motor control through an L298N H-bridge with PWM speed control.
+- Wiring diagram, demo video and full project report included.
+
+*INF1643 Computer Architecture II · UQO · Winter 2024 · Team of two*
 *Project documentation is in French.*
 
 ## 🌐 Languages

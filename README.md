@@ -38,6 +38,17 @@ Real-time embedded system that classifies a DC motor's condition as **NORMAL**, 
 *GEN1333 Integrated Circuit Design · UQO · Winter 2026 · Team of four*
 *Project documentation is in French.*
 
+### [Automated Railway Level Crossing — FPGA](https://github.com/AnonymousCandela/passage-a-niveau-fpga)
+
+Level crossing controller written entirely in VHDL on a DE1-SoC board.
+
+- Redundant train detection in both directions with four HC-SR04 ultrasonic sensors.
+- Servo-driven barrier (50 Hz PWM), traffic lights, "STOP" message on 7-segment displays and audible alarm.
+- Obstacle detection on the track and PIN-protected manual mode.
+
+*GEN1243 Digital Systems Design · UQO · Fall 2024 · Team of three*
+*Project documentation is in French.*
+
 ### [Obstacle-Avoiding Robot — Arduino Uno](https://github.com/AnonymousCandela/Robot-Eviteur-d-obstacles)
 
 Autonomous mobile robot that detects obstacles and reacts to avoid collisions.

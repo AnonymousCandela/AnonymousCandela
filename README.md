@@ -8,7 +8,8 @@ I'm interested in **FPGA digital design**, **embedded systems** and **hardware/s
 | Area | Tools and technologies |
 |---|---|
 | Digital design | VHDL, finite state machines, UART, Intel Quartus Prime, Cyclone V (DE1-SoC) |
-| Verification | VHDL testbenches, Questa / ModelSim |
+| ASIC flow | RTL-to-GDS, Cadence Genus (synthesis), Cadence Innovus (place & route), SDC timing constraints, TSMC 65 nm |
+| Verification | VHDL / Verilog testbenches, gate-level simulation with SDF back-annotation, NCSim / SimVision, Questa / ModelSim |
 | Embedded | Arduino (C/C++), sensor acquisition, PWM motor control, interrupts, servomotors |
 | Instrumentation | Experimental calibration, statistical analysis of measurements |
 | Documentation | Technical writing, keeping documentation consistent with the implementation |
@@ -26,7 +27,18 @@ Real-time embedded system that classifies a DC motor's condition as **NORMAL**, 
 *GEN5001 internship · UQO · Summer 2026*
 *Project documentation is in French.*
 
-### [Obstacle-Avoiding Robot — Arduino Uno](https://github.com/AnonymousCandela/Robot.Eviteur.d-obstacles)
+### [Multifunction Address Register — ASIC flow in 65 nm](https://github.com/AnonymousCandela/registre-ar-asic-65nm)
+
+4-bit multifunction address register taken from VHDL all the way to physical layout with the Cadence RTL-to-GDS flow.
+
+- Synthesis with Genus on TSMC 65 nm standard cells: 22 cells, no timing violation (+9.2 ns setup slack at 100 MHz).
+- Place and route with Innovus, with connectivity and geometry checks passing.
+- Functional, post-synthesis and post-layout simulations with SDF back-annotation.
+
+*GEN1333 Integrated Circuit Design · UQO · Winter 2026 · Team of four*
+*Project documentation is in French.*
+
+### [Obstacle-Avoiding Robot — Arduino Uno](https://github.com/AnonymousCandela/Robot-Eviteur-d-obstacles)
 
 Autonomous mobile robot that detects obstacles and reacts to avoid collisions.
 

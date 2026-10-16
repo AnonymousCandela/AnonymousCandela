@@ -1,4 +1,4 @@
-# Hi, I'm Durrice Léa Tahoc Wokam 👋
+# Hi, I'm Durrice Léa Tahoc Wokam 
 
 **Computer Engineering** undergraduate student at the Université du Québec en Outaouais (UQO), Canada.
 I'm interested in **FPGA digital design**, **embedded systems** and **hardware/software integration**.

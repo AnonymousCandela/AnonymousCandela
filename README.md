@@ -9,7 +9,7 @@ I'm interested in **FPGA digital design**, **embedded systems** and **hardware/s
 |---|---|
 | Digital design | VHDL, finite state machines, UART, Intel Quartus Prime, Cyclone V (DE1-SoC) |
 | Verification | VHDL testbenches, Questa / ModelSim |
-| Embedded | Arduino (C/C++), sensor acquisition, PWM control, interrupts |
+| Embedded | Arduino (C/C++), sensor acquisition, PWM motor control, interrupts, servomotors |
 | Instrumentation | Experimental calibration, statistical analysis of measurements |
 | Documentation | Technical writing, keeping documentation consistent with the implementation |
 

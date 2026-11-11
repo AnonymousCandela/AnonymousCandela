@@ -3,7 +3,7 @@
 **Computer Engineering** undergraduate student at the Université du Québec en Outaouais (UQO), Canada.
 I'm interested in **FPGA digital design**, **embedded systems** and **hardware/software integration**.
 
-## 🔧 Skills
+##  Skills
 
 | Area | Tools and technologies |
 |---|---|
@@ -14,7 +14,7 @@ I'm interested in **FPGA digital design**, **embedded systems** and **hardware/s
 | Instrumentation | Experimental calibration, statistical analysis of measurements |
 | Documentation | Technical writing, keeping documentation consistent with the implementation |
 
-## 📌 Featured projects
+## Featured projects
 
 ### [DC Motor Monitoring — Arduino + FPGA](https://github.com/AnonymousCandela/surveillance-moteur-fpga)
 
@@ -60,6 +60,6 @@ Autonomous mobile robot that detects obstacles and reacts to avoid collisions.
 *INF1643 Computer Architecture II · UQO · Winter 2024 · Team of two*
 *Project documentation is in French.*
 
-## 🌐 Languages
+## Languages
 
 French · English

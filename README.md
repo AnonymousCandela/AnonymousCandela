@@ -24,7 +24,8 @@ TinyML anomaly detection for an IoT DC motor that stays reliable when sensor dat
 * Validated on real motor measurements (Paderborn University dataset): frozen temperature detected 99.7 % of the time, replay only 34 %, a documented limitation.
 * End-to-end MQTT pipeline (Mosquitto) and an interactive Streamlit dashboard to replay attack scenarios.
 
-CYB6053 course project (IoT & embedded systems security) · UQO · Fall 2026 · Project documentation is in French.
+*CYB6053 course project (IoT & embedded systems security) · UQO · Fall 2026 ·*
+*Project documentation is in French.*
 
 ### [DC Motor Monitoring — Arduino + FPGA](https://github.com/AnonymousCandela/surveillance-moteur-fpga)
 

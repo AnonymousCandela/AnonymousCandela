@@ -15,6 +15,16 @@ I'm interested in **FPGA digital design**, **embedded systems** and **hardware/s
 | Documentation | Technical writing, keeping documentation consistent with the implementation |
 
 ## Featured projects
+### [Data-Attack-Resilient TinyML — DC Motor Monitoring](https://github.com/AnonymousCandela/moteur-tinyml) · 🚧 *In progress*
+TinyML anomaly detection for an IoT DC motor that stays reliable when sensor data is forged, injected or replayed, and tells a real fault apart from a data attack.
+
+* Physics-based DC motor simulator (electrical, mechanical, thermal) with 4 fault types and 5 sensor-data attacks: injection, modification, frozen value, replay, noise.
+* INT8 neural network (3,845 parameters, 7.5 KB) running in TensorFlow Lite Micro on ESP32-S3 firmware under QEMU, matching the Python reference on 999 of 1,000 test windows.
+* Two defence layers: HMAC-SHA256 with an anti-replay counter, and physical-consistency checks (electrical residual, noise fingerprint, active watermark). In simulation: 95.6 % of attacked windows detected, 99.9 % safe decisions when a real fault is masked (5 seeds).
+* Validated on real motor measurements (Paderborn University dataset): frozen temperature detected 99.7 % of the time, replay only 34 %, a documented limitation.
+* End-to-end MQTT pipeline (Mosquitto) and an interactive Streamlit dashboard to replay attack scenarios.
+
+CYB6053 course project (IoT & embedded systems security) · UQO · Fall 2026 · Project documentation is in French.
 
 ### [DC Motor Monitoring — Arduino + FPGA](https://github.com/AnonymousCandela/surveillance-moteur-fpga)
 

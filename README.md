@@ -15,7 +15,7 @@ I'm interested in **FPGA digital design**, **embedded systems** and **hardware/s
 | Documentation | Technical writing, keeping documentation consistent with the implementation |
 
 ## Featured projects
-### [Data-Attack-Resilient TinyML — DC Motor Monitoring](https://github.com/AnonymousCandela/moteur-tinyml) · 🚧 *In progress*
+### [Data-Attack-Resilient TinyML — DC Motor Monitoring](https://github.com/AnonymousCandela/moteur-tinyml) ·  *In progress*
 TinyML anomaly detection for an IoT DC motor that stays reliable when sensor data is forged, injected or replayed, and tells a real fault apart from a data attack.
 
 * Physics-based DC motor simulator (electrical, mechanical, thermal) with 4 fault types and 5 sensor-data attacks: injection, modification, frozen value, replay, noise.

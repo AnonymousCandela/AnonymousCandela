@@ -10,7 +10,9 @@ I'm interested in **FPGA digital design**, **embedded systems** and **hardware/s
 | Digital design | VHDL, finite state machines, UART, Intel Quartus Prime, Cyclone V (DE1-SoC) |
 | ASIC flow | RTL-to-GDS, Cadence Genus (synthesis), Cadence Innovus (place & route), SDC timing constraints, TSMC 65 nm |
 | Verification | VHDL / Verilog testbenches, gate-level simulation with SDF back-annotation, NCSim / SimVision, Questa / ModelSim |
-| Embedded | Arduino (C/C++), sensor acquisition, PWM motor control, interrupts, servomotors |
+| Embedded | C on ESP32-S3 (ESP-IDF, QEMU), Arduino (C/C++), TensorFlow Lite Micro, MQTT, UART / I²C / SPI, PWM motor control, interrupts |
+| Control | State-space modelling, pole placement, energy-based swing-up, MATLAB / Simulink, Quanser SRV02 test bench |
+| Tools | Python, Git / GitHub, Linux |
 | Instrumentation | Experimental calibration, statistical analysis of measurements |
 | Documentation | Technical writing, keeping documentation consistent with the implementation |
 
@@ -25,6 +27,17 @@ TinyML anomaly detection for an IoT DC motor that stays reliable when sensor dat
 * End-to-end MQTT pipeline (Mosquitto) and an interactive Streamlit dashboard to replay attack scenarios.
 
 *CYB6053 course project (IoT & embedded systems security) · UQO · Fall 2026 ·*
+*Project documentation is in French.*
+
+### [Rotary Inverted Pendulum — State-Feedback Control and Swing-Up](https://github.com/AnonymousCandela/pendule-inverse-rotatif)
+
+Swings a pendulum up from its hanging position and balances it upright on a real Quanser SRV02 + ROTPEN bench.
+
+- State-space model (Euler-Lagrange, linearized 4×4 model including motor dynamics) and pole placement through the companion form, checked with MATLAB `place()`.
+- Energy-based nonlinear swing-up controller that hands over automatically to the balance controller when |α| < 12°.
+- On the real bench: maximum pendulum deviation **8.5°** (spec < 15°) and maximum motor voltage **3.7 V** (spec < 10 V); results match the simulation.
+
+*GEN1743 Digital Control · UQO · Winter 2026 · Team of two*
 *Project documentation is in French.*
 
 ### [DC Motor Monitoring — Arduino + FPGA](https://github.com/AnonymousCandela/surveillance-moteur-fpga)
